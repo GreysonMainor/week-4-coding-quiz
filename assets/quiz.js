@@ -1,4 +1,4 @@
-var start = document.getElementById("startBtn")
+var start = document.getElementById("start-btn")
 var openingQuestionsIndex = 0;
 var choices = document.getElementById("choices")
 var currentQuestion = document.getElementById("currentQuestion")
@@ -15,3 +15,8 @@ var quit = document.getElementById("quit")
 var startQuiz = document.getElementById("start-screen")
 
 
+start.addEventListener("click", startGame)
+
+function startGame(){
+    
+}

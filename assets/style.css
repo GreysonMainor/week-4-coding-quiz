@@ -37,6 +37,11 @@ font-size: 25px;
     cursor: pointer;
 }
 .result,
-.start-screen{
+.start-screen
+{
     display: none;
 }
+.hide{
+    display: none;
+}
+
