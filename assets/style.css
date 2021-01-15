@@ -36,3 +36,6 @@ font-size: 25px;
     padding: 15px 30px;
     cursor: pointer;
 }
+.result{
+    display: none;
+}
