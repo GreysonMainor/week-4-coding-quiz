@@ -1,22 +1,24 @@
-var start = document.getElementById("start-btn")
+var startBtn = document.querySelector(".start-btn")
 var openingQuestionsIndex = 0;
-var choices = document.getElementById("choices")
-var currentQuestion = document.getElementById("currentQuestion")
-var infoBox = document.getElementById("info-box")
-var infoList = document.getElementById("info-list")
-var infoTitle = document.getElementById("info-title")
-var quizArea = document.getElementById("quiz-area")
-var nextBtn = document.getElementById("next-btn")
-var result = document.getElementById("result")
-var completion = document.getElementById("completion")
-var scoreText = document.getElementById("score-text")
-var restart = document.getElementById("restart")
-var quit = document.getElementById("quit")
-var startQuiz = document.getElementById("start-screen")
+var choices = document.querySelector(".choices")
+var currentQuestion = document.querySelector(".currentQuestion")
+var infoBox = document.querySelector(".info-box")
+var infoList = document.querySelector(".info-list")
+var infoTitle = document.querySelector(".info-title")
+var quizArea = document.querySelector(".quiz-area")
+var nextBtn = document.querySelector(".next-btn")
+var result = document.querySelector(".result")
+var completion = document.querySelector(".completion")
+var scoreText = document.querySelector(".score-text")
+var restart = document.querySelector(".restart")
+var quit = document.querySelector(".quit")
+var startQuiz = document.querySelector(".start-screen")
 
-
-start.addEventListener("click", startGame)
 
 function startGame(){
-    
+    console.log("something")
+    startBtn.classList.add("hide")
+    startQuiz.classList.add("active")
 }
+
+startBtn.addEventListener("click", startGame)
